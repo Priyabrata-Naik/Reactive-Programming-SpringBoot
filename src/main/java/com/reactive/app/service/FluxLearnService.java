@@ -93,7 +93,7 @@ public class FluxLearnService {
                 })
                 .doOnEach(data -> {
                     System.out.println(data + " each");
-                })x`
+                })
                 .doOnComplete(() -> {
                     System.out.println("Completed");
                 })
